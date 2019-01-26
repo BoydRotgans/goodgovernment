@@ -1,4 +1,4 @@
-Tool to inspect the indicators that might make a good government
+Tool to inspect the indicators that might make a good government.
 
 In this tool, the countries will re-arrange according to inter-country similarity of the selected indicators. The indicators are grouped in 6 main categories (for example Education, Happiness, etc) with subcategories and can be coloured along 32 themes, where green is more positive and red is more negative.
 
