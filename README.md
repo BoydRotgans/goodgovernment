@@ -1,6 +1,6 @@
 Tool to inspect the indicators that might make a good government.
 
-In this tool, the countries will re-arrange according to inter-country similarity of the selected indicators. The indicators are grouped in 6 main categories (for example Health, Happiness, etc) with subcategories and can be coloured along 32 themes, where green is more positive and red is more negative.
+In this tool, the countries will re-arrange according to inter-country similarity of the selected indicators. The indicators are grouped in 6 main categories (for example Health, Happiness, etc) with subcategories and can be coloured along 32 themes.
 
 The closer countries are to each other, the more similarities. In order to be able to focus on factors that determine what might make a good government, the indicators Population size and Surface area can be deselected.
                      
