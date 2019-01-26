@@ -261,9 +261,6 @@ fun Body.sideBar() : Dialog {
                             }
                         }
 
-
-
-
                     }
 
                     div("header") {

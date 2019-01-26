@@ -166,6 +166,12 @@ class Island {
                 var getColors = colorArray.get(selectedTheme)
                 var mixCOlor = mix(getColors.get(0), getColors.get(1), mapC)
 
+                if(orderColumn.get(selectedTheme).toInt() == 1) {
+                    mixCOlor = mix(getColors.get(0), getColors.get(1), mapC)
+                } else {
+                    mixCOlor = mix(getColors.get(1), getColors.get(0), mapC)
+                }
+
                 var dataVal = OriginalCore.get(index).get(selectedTheme)
                 if (dataVal.toDouble() == -999.0) {
                     mixCOlor = ColorRGBa.GRAY
@@ -271,7 +277,11 @@ class Island {
             var getColors = colorArray.get(selectedTheme)
 
             for (i in 0..20) {
-                drawer.fill = (mix(getColors.get(0), getColors.get(1), i / 20.0)).opacify(0.5)
+                if(orderColumn.get(selectedTheme).toInt() == 1) {
+                    drawer.fill = (mix(getColors.get(0), getColors.get(1), i / 20.0)).opacify(0.5)
+                } else {
+                    drawer.fill = (mix(getColors.get(1), getColors.get(0), i / 20.0)).opacify(0.5)
+                }
                 drawer.rectangle(Rectangle(10.0 + (i * 10), height - 50.0, 10.0, 10.0))
             }
 
@@ -323,7 +333,11 @@ class Island {
 
 
                     for (i in 0..20) {
-                        drawer.fill = (mix(getColors.get(0), getColors.get(1), i / 20.0)).opacify(0.5)
+                        if(orderColumn.get(index).toInt() == 1) {
+                            drawer.fill = (mix(getColors.get(0), getColors.get(1), i / 20.0)).opacify(0.5)
+                        } else {
+                            drawer.fill = (mix(getColors.get(1), getColors.get(0), i / 20.0)).opacify(0.5)
+                        }
                         drawer.rectangle(Rectangle(10.0 + (i * 10), 18.0, 10.0, 5.0))
                     }
                     drawer.popTransforms()
@@ -399,7 +413,13 @@ class Island {
                     var getColors = colorArray.get(selectedTheme)
                     val mixCOlor = mix(getColors.get(0), getColors.get(1), mapC)
 
-                    drawer.fill = mixCOlor
+                    if(orderColumn.get(selectedTheme).toInt() == 1) {
+                        mix(getColors.get(0), getColors.get(1), mapC)
+                    } else {
+                        mix(getColors.get(1), getColors.get(0), mapC)
+                    }
+
+                    drawer.fill = mixCOlor.shade(0.5)
 
                     if (dataVal.toDouble() != -999.0) {
 

@@ -47,7 +47,7 @@ import org.openrndr.draw.Drawer;
 
 public class BHTSne implements BarnesHutTSne {
 
-	public long seed = 3134;
+	public long seed = 1234;
 
 	private Random random = new Random(seed);
 	protected final Distance distance = new EuclideanDistance();

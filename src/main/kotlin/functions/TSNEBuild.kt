@@ -13,11 +13,11 @@ class TSNEBuild() {
     fun consume(recipe: BooleanArray): Array<out DoubleArray>? {
 
         val initial_dims = 32
-        val perplexity = 15.0
+        var perplexity = 20.0
 
         //val X = MatrixUtils.simpleRead2DMatrix(File("data/WDVP-Datasets-5.csv"), ";")
-        val X = MatrixUtils.simpleRead2DMatrix(File("data/WDVP-Export-Normal.csv"), ";")
-        //val X = MatrixUtils.simpleRead2DMatrix(File("data/WDVP-Export-Ranked.csv"), ";")
+        //val X = MatrixUtils.simpleRead2DMatrix(File("data/WDVP-Export-Normal.csv"), ";")
+        val X = MatrixUtils.simpleRead2DMatrix(File("data/WDVP-Export-Ranked.csv"), ";")
 
         var emptyDoubleArray = DoubleArray(32)
         emptyDoubleArray.forEachIndexed { index, d ->
@@ -39,6 +39,7 @@ class TSNEBuild() {
             if(countFalse == doubles.size) {
                 recipe.forEachIndexed { index, b ->
                     tempDoubles.set(index, 0.0001)
+                    perplexity = 15.0
                 }
             }
 

@@ -8,7 +8,7 @@ macOS App :  [Download](https://github.com/BoydRotgans/goodgovernment/raw/master
 
 If you have trouble running the app, follow these [instructions](https://support.apple.com/kb/ph25088?locale=en_US).                     
                      
-![alt text](animation.gif "preview")
+![alt text](images/animation.gif "preview")
 
 For generating the maps we used t-Distributed Stochastic Neighbor Embedding (t-SNE) algorithms. Special thanks go to lejon for his Barnes Hut Java implementation. 
 https://github.com/lejon/T-SNE-Java
@@ -17,8 +17,8 @@ https://github.com/lejon/T-SNE-Java
 
 |   |   |   |
 |---|---|---|
-| ![alt text](1.gif "preview") Prioritize | ![alt text](2.gif "preview") Highlight |  ![alt text](3.gif "preview") Save to file     
-| ![alt text](4.gif "preview") Theme | ![alt text](5.gif "preview") Hover  |
+| ![alt text](images/1.gif "preview") Prioritize | ![alt text](images/2.gif "preview") Highlight |  ![alt text](images/3.gif "preview") Save to file     
+| ![alt text](images/4.gif "preview") Theme | ![alt text](images/5.gif "preview") Hover  |
 
 
 ### Project
