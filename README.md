@@ -17,8 +17,8 @@ https://github.com/lejon/T-SNE-Java
 
 |   |   |   |
 |---|---|---|
-| ![alt text](1.gif "preview") Prioritize | ![alt text](2.gif "preview") Highlight |  ![alt text](3.gif "preview") Save to file     
-| ![alt text](4.gif "preview") Theme | ![alt text](5.gif "preview") Hover  |
+| ![alt text](1.gif "preview") Prioritize indicators | ![alt text](2.gif "preview") Highlight country |  ![alt text](3.gif "preview") Save to file     
+| ![alt text](4.gif "preview") Theme with indicators | ![alt text](5.gif "preview") Hover for focus  |
 
 
 ### Project
