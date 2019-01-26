@@ -1,0 +1,32 @@
+Population
+Surface area (Km2)
+GINI index
+Happy planet index
+Human development index
+World happiness report score
+Sustainable economic develop.. (SEDA)
+GDP (billions PPP)
+GDP per capita (PPP)
+GDP growth(annual %)
+Health expenditure % of GDP
+Health expenditure per person
+Education expenditure % of GDP
+Education expenditure per person
+School life expectancy (YEARS)
+Unemployment (%)
+Government spending score
+Government expenditure (% of GDP)
+Political rights score
+Civil liberties score
+Political stability & absence of violence
+Government effectiveness
+Regulatory quality
+Rule of law
+Control of corruption
+Judicial effectiveness score
+Government integrity score
+Property rights score
+Tax burden score
+Overall economic freedom score
+Financial freedom score
+Percentage of Women MPs
