@@ -4,5 +4,3 @@ With this interactive tool you can compare 195 governments. By building correlat
 
 This project takes part in the WORLD DATA VISUALIZATION PRIZE 2019
 https://wdvp.worldgovernmentsummit.org/
- 
-             
