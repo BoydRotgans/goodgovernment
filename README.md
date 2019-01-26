@@ -18,8 +18,7 @@ https://github.com/lejon/T-SNE-Java
 |   |   |   |
 |---|---|---|
 | ![alt text](images/1.gif "preview") Prioritize | ![alt text](images/2.gif "preview") Highlight |  ![alt text](images/3.gif "preview") Save to file     
-| ![alt text](images/4.gif "preview") Theme | ![alt text](images/5.gif "preview") Hover  |
-
+| ![alt text](images/4.gif "preview") Theme | ![alt text](images/5.gif "preview") Focus  |
 
 ### Project
 
@@ -27,5 +26,3 @@ This project takes part in the World Data Visualization Prize
 https://wdvp.worldgovernmentsummit.org/
 
 Data provided by WDVP https://docs.google.com/spreadsheets/d/11LhOlwsloUuA495r-04IDwciMqNrLwWGpveqpF61WXU/edit#gid=0
-
-
