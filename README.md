@@ -10,8 +10,12 @@ If you have trouble running the app, follow these [instructions](https://support
                      
 ![alt text](animation.gif "preview")
 
+For generating the maps we used t-Distributed Stochastic Neighbor Embedding (t-SNE) algorithms. Special thanks go to lejon for his Barnes Hut Java implementation. 
+https://github.com/lejon/T-SNE-Java
+
 This project takes part in the World Data Visualization Prize
 https://wdvp.worldgovernmentsummit.org/
 
 Data provided by WDVP https://docs.google.com/spreadsheets/d/11LhOlwsloUuA495r-04IDwciMqNrLwWGpveqpF61WXU/edit#gid=0
+
 
