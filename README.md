@@ -1,4 +1,8 @@
-With this interactive tool you can explore 195 governments. By building correlation maps you can explore their similarities and contradictions.
+With this interactive tool you can compare 195 governments. By building correlation maps you can explore their similarities and contradictions.
                      
-![alt text](animation.gif "preview") 
+![alt text](animation.gif "preview")
+
+This project takes part in the WORLD DATA VISUALIZATION PRIZE 2019
+https://wdvp.worldgovernmentsummit.org/
+ 
              
