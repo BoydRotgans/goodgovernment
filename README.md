@@ -10,6 +10,8 @@ If you have trouble running the app, follow these [instructions](https://support
                      
 ![alt text](animation.gif "preview")
 
-This project takes part in the WORLD DATA VISUALIZATION PRIZE
+This project takes part in the World Data Visualization Prize
 https://wdvp.worldgovernmentsummit.org/
+
+Data provided by WDVP https://docs.google.com/spreadsheets/d/11LhOlwsloUuA495r-04IDwciMqNrLwWGpveqpF61WXU/edit#gid=0
 

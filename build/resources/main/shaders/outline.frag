@@ -1,6 +1,7 @@
 #version 330
 
 uniform float time;
+uniform float slider;
 uniform vec2 resolution;
 out vec4 O;
 out vec2 U;
@@ -80,8 +81,8 @@ float gain(float x, float p) {
 		1. - .5 * pow(2. * (1. - x), p);
 }
 
-float thickness = 1.;
-float scale = 1.5;
+float thickness = 2.;
+float scale = .5;
 float t = 0.;
 
 void main()
@@ -115,7 +116,7 @@ void main()
         f1 = max(f1, ((n00 < t) != (n11 > t)) && ((n01 < t) != (n10 > t)) ? 0. : 1.);
     }
 
-	o_output = vec4(vec3(f1), 1.0);
+	o_output = vec4(vec3(f1)*slider, 1.0);
 
     //fragColor = min(fragColor, vec4(uv,1.,1.0));
 }
