@@ -15,11 +15,11 @@ https://github.com/lejon/T-SNE-Java
 
 #Features
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-|  ![alt text](1.gif "preview")  | ![alt text](2.gif "preview")  |  ![alt text](3.gif "preview")  |   |   |
-| ![alt text](4.gif "preview")  | ![alt text](5.gif "preview")  |   |   |   |
-|   |   |   |   |   |
+|   |   |   |
+|---|---|---|
+|  ![alt text](1.gif "preview") Prioritize | ![alt text](2.gif "preview") Highlight |  ![alt text](3.gif "preview") Save 
+| ![alt text](4.gif "preview") Theme | ![alt text](5.gif "preview") Hover  |
+
 
 
 This project takes part in the World Data Visualization Prize
