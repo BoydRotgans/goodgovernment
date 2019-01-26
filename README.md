@@ -15,7 +15,7 @@ https://github.com/lejon/T-SNE-Java
 
 ### Features
 
-|   |   |   |
+|---|---|---|
 | ![alt text](1.gif "preview") Prioritize | ![alt text](2.gif "preview") Highlight |  ![alt text](3.gif "preview") Save to file     
 | ![alt text](4.gif "preview") Theme | ![alt text](5.gif "preview") Hover  |
 
